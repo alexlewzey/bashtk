@@ -1,0 +1,3 @@
+#!/bin/bash
+path=$1
+pygount --format=summary --suffix=py,sql,R,sh $path

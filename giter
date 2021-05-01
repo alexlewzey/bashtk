@@ -1,0 +1,7 @@
+#!/bin/bash
+path=$1
+msg=$2
+git pull
+git add $path
+git commit -m "${msg}"
+git push
