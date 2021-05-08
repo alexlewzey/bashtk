@@ -9,7 +9,10 @@ echo $CONDA_PREFIX
 # needed to find the kernel in jupyter
 conda install ipykernel -y
 conda install -c fastai -c pytorch fastai -y
-conda install -c conda-forge gh -y
 
-gh repo clone https://github.com/alexlewzey/slibtk
+# make tqdm work in notebook
+conda install -c conda-forge ipywidgets -y
+jupyter nbextension enable --py widgetsnbextension
+
+git clone https://github.com/alexlewzey/slibtk
 pip install -e slibtk/
