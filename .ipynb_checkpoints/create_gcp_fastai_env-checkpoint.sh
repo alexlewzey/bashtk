@@ -10,6 +10,3 @@ echo $CONDA_PREFIX
 conda install ipykernel -y
 conda install -c fastai -c pytorch fastai -y
 conda install -c conda-forge gh -y
-
-gh repo clone https://github.com/alexlewzey/slibtk
-pip install -e slibtk/
