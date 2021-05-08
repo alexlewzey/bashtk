@@ -16,3 +16,6 @@ jupyter nbextension enable --py widgetsnbextension
 
 git clone https://github.com/alexlewzey/slibtk
 pip install -e slibtk/
+
+git clone https://github.com/alexlewzey/bashtk
+export PATH="/home/jupyter/bashtk/:$PATH"
