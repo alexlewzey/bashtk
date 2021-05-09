@@ -13,6 +13,8 @@ conda install -c fastai -c pytorch fastai -y
 # make tqdm work in notebook
 conda install -c conda-forge ipywidgets -y
 jupyter nbextension enable --py widgetsnbextension
+# make doc func include link
+pip install nbdev
 
 git clone https://github.com/alexlewzey/slibtk
 pip install -e slibtk/
