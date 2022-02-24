@@ -17,3 +17,5 @@ alias gcurl='curl --header "Authorization: Bearer $(gcloud auth print-identity-t
 alias pc='pycharm'
 alias rv='source ~/.bashrc'
 alias ls='ls -al'
+alias pu='pip install --upgrade pip'
+alias pf='pip freeze > requirements.txt'
