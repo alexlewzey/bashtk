@@ -4,6 +4,9 @@ alias dl='cd ~/Downloads'
 alias gd='cd ~/Google\ Drive/My\ Drive'
 alias ry='cd ~/repository'
 alias ao='cd ~/Google\ Drive/My\ Drive/audio'
+alias ap='cd ~/Google\ Drive/My\ Drive/music/ableton_projects'
+alias mc='cd ~/Google\ Drive/My\ Drive/music'
+alias pi='cd /Library/Audio/Plug-Ins'
 
 # applications
 alias enc='pycharm ~/repository/clmac/clmac/macro/encodings.py'
@@ -19,6 +22,6 @@ alias gcurl='curl --header "Authorization: Bearer $(gcloud auth print-identity-t
 # install jetbrains tool box and enable `generate shell scripts` and add directory to the $PATH
 alias pc='pycharm'
 alias rv='source ~/repository/.bashrc'
-alias ls='ls -al'
+alias ls='ls -alh'
 alias pu='pip install --upgrade pip'
 alias pf='pip freeze > requirements.txt'
