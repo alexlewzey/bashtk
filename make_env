@@ -1,7 +1,0 @@
-pipenv install --python 3.7
-PY_PATH=$(pipenv run which python)
-ENV_PATH="${PY_PATH/python/activate}"
-source $ENV_PATH
-pipenv install -e ~/master/pygcp/.
-pipenv install -e ~/master/slibtk/.
-pipenv install -e ~/master/dstk/.

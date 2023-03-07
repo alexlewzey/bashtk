@@ -1,0 +1,6 @@
+#!/bin/bash
+path=$1
+black $path
+autoflake --remove-all-unused-imports --in-place -r $path
+isort $path
+docformatter -r --in-place $path
