@@ -1,0 +1,6 @@
+removestar
+pyupgrade
+black
+isort
+autoflake
+docformatter
