@@ -1,0 +1,4 @@
+#!/bin/bash
+version=$1
+conda create -n py$version -y python=$version
+conda activate py$version
