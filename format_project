@@ -6,7 +6,3 @@ black $path
 isort $path
 autoflake --remove-all-unused-imports --in-place -r $path
 docformatter -r --in-place $path
-
-
-
-
