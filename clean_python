@@ -3,6 +3,6 @@ path=$1
 removestar -i $path
 find $path -name "*.py" -exec pyupgrade --py311-plus {} \;
 black $path
+autoflake --remove-all-unused-imports --remove-unused-variables --in-place -r $path
 isort $path
-autoflake --remove-all-unused-imports --in-place -r $path
 docformatter -r --in-place $path
