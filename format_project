@@ -8,3 +8,4 @@ isort $path
 find $path -name '*.py' -exec docformatter --wrap-summaries 88 --wrap-descriptions 88 --in-place {} \;
 find $path -name '*.json' -exec python -m json.tool --indent 4 {} {} \;
 find $path \( -name "*.yml" -o -name "*.yaml" \) -exec yq --prettyPrint --indent 2 -i {} \;
+find $path -name '*.sql' -exec sqlformat {} --reindent --keywords upper --use_space_around_operators -o {} \;
