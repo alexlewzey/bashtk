@@ -1,3 +1,0 @@
-#!/bin/bash
-file_name=$1
-echo "$(pwd)/${file_name}" | pbcopy

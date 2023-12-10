@@ -1,5 +1,0 @@
-#!/bin/bash
-path=$1
-removestar -i $path
-find $path -name "*.py" -exec pyupgrade --py311-plus {} \;
-autoflake --remove-all-unused-imports --remove-unused-variables --in-place -r .

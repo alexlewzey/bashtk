@@ -1,2 +1,0 @@
-#!/bin/bash
-cd $(cat ~/working_dir.txt)
