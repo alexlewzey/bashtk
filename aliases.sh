@@ -16,10 +16,13 @@ alias checkout="git checkout"
 alias stash="git stash"
 alias c="code"
 alias p="poetry"
-alias t="pytest"
+alias e="pytest"
 alias d="docker"
 alias dc="docker container"
 alias di="docker image"
+alias rui="autoflake --remove-all-unused-imports --in-place -r ."
+alias t="terraform"
+
 
 
 # directory shortcuts
