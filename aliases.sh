@@ -1,8 +1,14 @@
-# command shortcuts
+# unix
 alias sizes="find . -type f -exec du -h {} + | sort -r -h | head"
 alias ls="ls -alh"
+alias c="code"
+alias p="poetry"
+alias u="pytest"
+alias rui="autoflake --remove-all-unused-imports --in-place -r ."
+# pip
 alias pu="pip install --upgrade pip"
 alias pf="pip freeze > requirements.txt"
+# git
 alias add="git add"
 alias commit="git commit -m"
 alias ac="git add -A && git commit -m"
@@ -14,19 +20,18 @@ alias diff="git diff"
 alias clone="git clone"
 alias checkout="git checkout"
 alias stash="git stash"
-alias c="code"
-alias p="poetry"
-alias u="pytest"
+# docker
 alias d="docker"
 alias dc="docker container"
 alias di="docker image"
-alias rui="autoflake --remove-all-unused-imports --in-place -r ."
+alias dcu="docker-compose up --build"
+# terraform
 alias t="terraform"
-
-
-
-# directory shortcuts
+alias ta="terraform apply --auto-approve"
+alias td="terraform destroy --auto-approve"
+# directories
 alias dt="cd ~/Desktop/"
 alias dl="cd ~/Downloads/"
 alias gd="cd ~/Google\ Drive/My\ Drive/"
 alias ry="cd ~/repository/"
+alias ns="cd ~/repository/notes/src"
