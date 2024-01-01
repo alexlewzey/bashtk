@@ -1,3 +1,5 @@
+# helpers
+alias sc="cat ~/repository/bashtk/aliases.sh"
 # unix
 alias sizes="find . -type f -exec du -h {} + | sort -r -h | head"
 alias ls="ls -alh"
@@ -5,6 +7,9 @@ alias c="code"
 alias p="poetry"
 alias u="pytest"
 alias rui="autoflake --remove-all-unused-imports --in-place -r ."
+alias pc="pre-commit run --all-files"
+alias nbc="jupyter nbconvert --to script"
+jupyter nbconvert --to script
 # pip
 alias pu="pip install --upgrade pip"
 alias pf="pip freeze > requirements.txt"
@@ -34,4 +39,4 @@ alias dt="cd ~/Desktop/"
 alias dl="cd ~/Downloads/"
 alias gd="cd ~/Google\ Drive/My\ Drive/"
 alias ry="cd ~/repository/"
-alias ns="cd ~/repository/notes/src"
+alias ns="cd ~/repository/notes/"
