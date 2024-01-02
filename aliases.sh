@@ -9,7 +9,6 @@ alias u="pytest"
 alias rui="autoflake --remove-all-unused-imports --in-place -r ."
 alias pc="pre-commit run --all-files"
 alias nbc="jupyter nbconvert --to script"
-jupyter nbconvert --to script
 # pip
 alias pu="pip install --upgrade pip"
 alias pf="pip freeze > requirements.txt"
