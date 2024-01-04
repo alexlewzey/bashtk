@@ -2,4 +2,4 @@
 
 ### install 
 
-source "/path/to/bashtk/aliases.sh"
+source "/path/to/bashtk/aliases.sh"# bashtk
