@@ -1,5 +1,6 @@
 # bashtk
 
-### install 
+Convenience tools for working with unix like systems, short hand aliases, bash commands etc 
 
-source "/path/to/bashtk/aliases.sh"# bashtk
+Run makefile to install:
+$ make
